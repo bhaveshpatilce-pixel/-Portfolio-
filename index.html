@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhavesh Amol Patil | Portfolio</title>
+    <meta name="description"
+        content="Personal portfolio of Bhavesh Amol Patil, B.Tech student in Pune, Maharashtra. Showcasing skills in Web Development, Java, and C.">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Scroll to Top Button -->
+    <button id="scrollTop" aria-label="Scroll to top"><i class="fas fa-arrow-up"></i></button>
+
+    <header>
+        <nav class="container">
+            <div class="logo">Bhavesh <span>Patil</span></div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero fade-in">
+            <div class="container hero-content">
+                <h1>Hello, I'm <span class="gradient-text">Bhavesh Amol Patil</span></h1>
+                <p>B.Tech Student & Aspiring Web Developer</p>
+                <div class="hero-btns">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about section fade-in">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>I am a highly motivated and detail-oriented B.Tech student at <strong>G.H. Raisoni
+                                International Skill Tech University, Pune</strong>. With a strong foundational knowledge
+                            in programming and web development, I am eager to apply my technical skills in real-world
+                            environments.</p>
+                        <p><strong>Career Objective:</strong> To seek an entry-level opportunity to apply technical
+                            skills in HTML, CSS, JavaScript, Java, and C while contributing to organizational growth and
+                            advancing my professional expertise.</p>
+                        <ul class="info-list">
+                            <li><i class="fas fa-map-marker-alt"></i> Pune, Maharashtra, India</li>
+                            <li><i class="fas fa-envelope"></i> bp1206516@gmail.com</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills section fade-in">
+            <div class="container">
+                <h2 class="section-title">My Skills</h2>
+                <div class="skills-grid">
+                    <!-- Programming -->
+                    <div class="skill-card">
+                        <i class="fas fa-code icon"></i>
+                        <h3>Programming</h3>
+                        <ul>
+                            <li>Java</li>
+                            <li>C</li>
+                        </ul>
+                    </div>
+                    <!-- Web Tech -->
+                    <div class="skill-card">
+                        <i class="fas fa-laptop-code icon"></i>
+                        <h3>Web Technologies</h3>
+                        <ul>
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>JavaScript (ES6+)</li>
+                        </ul>
+                    </div>
+                    <!-- Core Concepts -->
+                    <div class="skill-card">
+                        <i class="fas fa-brain icon"></i>
+                        <h3>Core Concepts</h3>
+                        <ul>
+                            <li>Object-Oriented Programming</li>
+                            <li>Basic Data Structures</li>
+                        </ul>
+                    </div>
+                    <!-- Tools -->
+                    <div class="skill-card">
+                        <i class="fas fa-tools icon"></i>
+                        <h3>Tools</h3>
+                        <ul>
+                            <li>VS Code</li>
+                            <li>Git (Basic)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects section fade-in">
+            <div class="container">
+                <h2 class="section-title">Recent Projects</h2>
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card">
+                        <div class="project-img">
+                            <img src="https://via.placeholder.com/400x250/1e3c72/ffffff?text=Portfolio+Website"
+                                alt="Project 1">
+                        </div>
+                        <div class="project-info">
+                            <h3>Personal Portfolio Website</h3>
+                            <p>Responsive portfolio built using HTML, CSS, and JavaScript with clean UI and interactive
+                                design.</p>
+                        </div>
+                    </div>
+                    <!-- Project 2 -->
+                    <div class="project-card">
+                        <div class="project-img">
+                            <img src="https://via.placeholder.com/400x250/2a5298/ffffff?text=Mini+LMS" alt="Project 2">
+                        </div>
+                        <div class="project-info">
+                            <h3>Course + Assignment Management System</h3>
+                            <p>Mini Learning Management System to manage courses and assignments with structured logic
+                                and submission tracking.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section fade-in">
+            <div class="container">
+                <h2 class="section-title">Contact Me</h2>
+                <div class="contact-wrapper">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Your Name" required>
+                            <span class="error-msg" id="name-error"></span>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Your Email" required>
+                            <span class="error-msg" id="email-error"></span>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                    <div id="feedback-display" class="feedback-container">
+                        <h3>Submitted Feedback</h3>
+                        <div id="feedback-list">
+                            <!-- Dynamically populated -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Bhavesh Amol Patil. All Rights Reserved.</p>
+            <div class="social-links">
+                <a href="https://github.com/bhaveshpatilce-pixel" target="_blank" rel="noopener noreferrer"
+                    aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/bhavesh-patil-4210b6285?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+                    target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
